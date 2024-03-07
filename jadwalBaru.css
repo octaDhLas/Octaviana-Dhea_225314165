@@ -1,0 +1,40 @@
+body {
+  background-color: #ffffff;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  min-height: 800px;
+}
+
+.jumbotron {
+  padding-top: 3rem;
+  background-color: #f80476;
+  color: #ffffff;
+  padding-bottom: 3rem;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+#customers {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td,
+#customers th {
+  border: 2px groove #524a4ab9;
+  padding: 10px;
+  text-align: center;
+}
+
+#customers tr:hover {
+  background-color: #f4c5d7;
+}
+
+#customers th {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  text-align: center;
+  background-color: #fba9ca;
+  color: white;
+}
+td {
+  color: #f80476;
+}
